@@ -1,0 +1,39 @@
+.login-card {
+    max-width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-card ion-card-header {
+    font-size: 1.2rem;
+    padding: 8px;
+  }
+  
+  .login-card ion-item {
+    --padding-start: 10px;
+    --padding-end: 10px;
+  }
+  
+  .login-card ion-icon {
+    font-size: 2rem;
+  }
+  
+  .login-card ion-label {
+    font-size: 1rem;
+  }
+  
+  .login-card ion-input {
+    font-size: 1rem;
+  }
+  
+  .login-card ion-card-content {
+    text-align: center; /* Centra el contenido dentro de la tarjeta */
+  }
+  
+  .login-button {
+    margin-top: 8px;
+    font-size: 1rem;
+  }
